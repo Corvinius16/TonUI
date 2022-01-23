@@ -1,0 +1,1 @@
+export const CONNECT_WALLET_TEXT = "Connect wallet";

@@ -1,0 +1,33 @@
+.Text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    color: #A5ADD0;
+}
+.MulishText{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    color: #A5ADD0; 
+}
+.flex{
+    display: flex;
+}
+.link{
+    cursor: pointer;
+}
+.marginTopAuto{
+    margin-top: auto;
+}
+.marginBottomTopAuto{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.line{
+    height: 1px;
+    background-color: #475078;
+}

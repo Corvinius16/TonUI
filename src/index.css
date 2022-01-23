@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  background: linear-gradient(180deg, #303757 0%, #191D32 100%);
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+  background: #191D32;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #0088CC;
+  border-radius: 4px;
+}
+
+
+
+#root{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+@-moz-document url-prefix() { 
+  html {
+    scrollbar-color: #0088CC #191D32;
+    scrollbar-width: thin;
+  }
+}
+/* body::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+  background-color: #aaa; 
+} */
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./fonts/Roboto/Roboto-Medium.ttf');
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Mulish';
+  src: url('./fonts/Mulish/Mulish-Medium.ttf');
+  font-style: normal;
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Mulish';
+  src: url('./fonts/Mulish/Mulish-Black.ttf');
+  font-style: normal;
+  font-weight: 900;
+}
+@font-face {
+  font-family: 'Mulish';
+  src: url('./fonts/Mulish/Mulish-Bold.ttf');
+  font-style: normal;
+  font-weight: 600;
+}
