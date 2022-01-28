@@ -1,0 +1,74 @@
+
+.swapContainer{
+    padding:20px;
+}
+.iconDir{
+    margin-top: 14px;
+    margin-bottom: 14px;
+    background: var(--color-innerBackground);
+    border-radius: 50%;
+    display: flex;
+    width:30px;
+    height: 30px;
+    transition: transform 0.5s;
+    cursor:pointer;
+}
+.iconDir img{
+    filter:var(--icon-filter);
+}
+.iconDir:hover{
+    transform: rotate(180deg);
+}
+.swapInfo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+.swapInfo div{
+    display: flex;
+    margin-bottom: 10px;
+}
+.swapInfo p{
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.swapInfo div:last-child{
+    margin-bottom: 0px;
+}
+.swapButton{
+    height: 43px;
+    width:100%;
+    display: flex;
+    border-radius: 10px;
+    background: var(--color-buttons);
+    transition: all var(--animationTime);
+    cursor: pointer;
+}
+.swapButton p{
+    margin: auto;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--color-text-button);
+    transition: all var(--animationTime);
+}
+
+.swapError{
+    border: 1px solid var(--color-text-error);
+    transition: all var(--animationTime);
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 22px;
+    display:flex;
+    padding:10px;
+}
+.swapError p{
+    text-align:center;
+    margin:auto;
+    transition: all var(--animationTime);
+    color: var(--color-text-error);
+}
+@media only screen and (max-width:450px) {
+
+}

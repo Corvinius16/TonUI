@@ -4,7 +4,7 @@
     font-weight: 500;
     font-size: 14px;
     text-decoration: none;
-    color: #A5ADD0;
+    color: var(--color-text);
 }
 .MulishText{
     font-family: Mulish;
@@ -12,7 +12,7 @@
     font-weight: 500;
     font-size: 14px;
     text-decoration: none;
-    color: #A5ADD0; 
+    color:  var(--color-text); 
 }
 .flex{
     display: flex;
@@ -27,7 +27,23 @@
     margin-top: auto;
     margin-bottom: auto;
 }
+.marginLeftRightAuto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.marginLeftAuto{
+    margin-left: auto;
+}
+.marginRightAuto{
+    margin-right: auto;
+}
+.center{
+    margin: auto;
+}
 .line{
     height: 1px;
-    background-color: #475078;
+    background-color: var(--color-line);
+}
+.disableOverflow{
+    overflow: hidden;
 }

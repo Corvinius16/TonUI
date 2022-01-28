@@ -1,0 +1,23 @@
+.CustomInput{
+    box-sizing: border-box;
+    border-radius: 10px;
+    height: 100%;
+    padding-left: 12px;
+    background: transparent;
+    color:  var(--color-text);
+    border: 1px solid var(--color-border-input);
+    transition: all var(--animationTime);
+    outline: none;
+    width:100%;
+}
+.CustomInput:focus{
+    border: 1px solid var(--color-buttons);
+    
+}
+.CustomInput::placeholder {
+    color:  var(--color-text);
+    font-family: 'Mulish';
+    font-size: 12px;
+    font-weight: 600;
+    transition: all var(--animationTime);
+}

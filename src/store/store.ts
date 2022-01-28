@@ -1,5 +1,5 @@
 import { createStore, compose, applyMiddleware } from 'redux';
-import thunk, { ThunkAction } from 'redux-thunk'
+import thunk from 'redux-thunk'
 import rootReducer from '../reducers';
 
 /* eslint-disable no-underscore-dangle */

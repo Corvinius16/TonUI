@@ -1,0 +1,103 @@
+.poolItemGridWindow{
+    width: 100%;
+}
+.poolItemGridContainer{
+    padding:16px;
+    display: flex;
+    flex-direction: column;
+}
+.poolItemGridContainerLogos{
+    display: flex;
+}
+.poolItemGridContainerLogos img{
+    margin-top: auto;
+    margin-bottom: auto;
+    width:28px;
+    height: 28px;
+    object-fit: contain;
+    margin: auto;
+}
+.poolItemGridContainerLogosBack{
+    height: 36px;
+    width:36px;
+    background: var(--color-icons-back);
+    transition: all var(--animationTime);
+    border-radius: 50%;
+    display: flex;
+    margin-top:auto;
+    margin-bottom:auto;
+}
+.poolItemGridContainerLogosBack:last-child{
+    transform: translateX(-10px);
+}
+.poolItemGridContainerName{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+.poolNames{
+    display: flex;
+}
+.poolNames p{
+    font-size: 16px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: 600;
+    transition: all var(--animationTime);
+    color: var(--color-text-pool);
+}
+.poolInfo{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    flex-direction: column;
+}
+.poolInfoHeader{
+    font-weight: 500;
+    font-size: 12px;
+    color: var(--color-text-pool);
+    transition: all var(--animationTime);
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+.poolInfoText{
+    margin-top: 0;
+    margin-bottom: 0;
+    transition: all var(--animationTime);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--color-text-poolInfo);
+
+}
+.poolInfoContainer{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.stakePoolGrid{ 
+    height:26px;
+    width:100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    cursor: pointer;
+    display: flex;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: 14px;
+    background: var(--color-buttons);
+    transition: all var(--animationTime);
+}
+.stakePoolGrid p{ 
+    margin:auto;
+    font-weight: 600;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+.unstakeButton{
+    background: transparent;
+    border: 1px solid var(--color-buttons);
+    transition: all var(--animationTime);
+}
+.unstakeButton p{
+    color:var(--color-text-unstake);
+    transition: all var(--animationTime);
+}

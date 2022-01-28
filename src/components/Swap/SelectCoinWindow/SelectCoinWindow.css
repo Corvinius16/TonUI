@@ -1,0 +1,75 @@
+.selectCoinWindow{
+    background:var(--color-selectCoinBack);
+    border-radius: 20px;
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height: 100%;
+    display: flex;
+    transition: all var(--animationTime);
+    z-index: 2;
+    flex-direction: column;
+}
+.SelectCoinWindowContainer{
+    position: relative;
+    height: 100%;
+}
+.inputContainer{
+    margin-top: 21px;
+    margin-left: 20px;
+    margin-right: 20px;
+    min-height: 42px;
+}
+
+.coinsList{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+.coinsList li{
+    display: flex;
+    height: 40px;
+    width:100%;
+    cursor:pointer;
+}
+.coinsList p{
+    font-size: 16px;
+}
+.coinsList p:last-child{
+    margin-right: 17px;
+}
+.coinsList img{
+    height: 20px;
+    margin-right: 8px;
+}
+.SelectCoinWindowContainerScroll{
+    width: calc(100% - 37px);
+    height: calc(100% - 40px);
+    position: absolute;
+    overflow-y: scroll;
+    top: 20px;
+    left: 24px;
+
+}
+.SelectCoinWindowContainerScroll::-webkit-scrollbar {
+    width: 5px;
+}
+  
+.SelectCoinWindowContainerScroll::-webkit-scrollbar-track {
+    background: var(--color-scrollBack);
+}
+  
+.SelectCoinWindowContainerScroll::-webkit-scrollbar-thumb {
+    background: var(--color-scrollFront);
+    border-radius: 4px;
+}
+  
+@-moz-document url-prefix() { 
+    .SelectCoinWindowContainerScroll {
+      scrollbar-color: var(--color-scrollFront) var(--color-scrollBack);
+      scrollbar-width: thin;
+    }
+}

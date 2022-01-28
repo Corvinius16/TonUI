@@ -3,22 +3,26 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   min-height: 100vh;
-  background: linear-gradient(180deg, #303757 0%, #191D32 100%);
-}
 
+  --animationTime: 0s;
+
+  background: var(--main-bg-color);
+  transition: all var(--animationTime);
+}
+html{
+  background-color: var(--main-bg-color-overflow);
+}
 body::-webkit-scrollbar {
   width: 5px;
 }
 
 body::-webkit-scrollbar-track {
-  background: #191D32;
+  background: var(--color-scrollBack);
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #0088CC;
+  background: var(--color-scrollFront);
   border-radius: 4px;
 }
 
@@ -32,16 +36,17 @@ body::-webkit-scrollbar-thumb {
 
 @-moz-document url-prefix() { 
   html {
-    scrollbar-color: #0088CC #191D32;
+    scrollbar-color: var(--color-scrollFront) var(--color-scrollBack);
     scrollbar-width: thin;
   }
 }
-/* body::-webkit-scrollbar {
-  width: 5px;
-  height: 8px;
-  background-color: #aaa; 
-} */
 
+@font-face {
+  font-family: 'Coolicons';
+  src: url('./fonts/Coolicon/coolicons.ttf');
+  font-style: normal;
+  font-weight: 400;
+}
 @font-face {
   font-family: 'Roboto';
   src: url('./fonts/Roboto/Roboto-Medium.ttf');
@@ -53,6 +58,12 @@ body::-webkit-scrollbar-thumb {
   src: url('./fonts/Mulish/Mulish-Medium.ttf');
   font-style: normal;
   font-weight: 500;
+}
+@font-face {
+  font-family: 'Mulish';
+  src: url('./fonts/Mulish/Mulish-Regular.ttf');
+  font-style: normal;
+  font-weight: 400;
 }
 @font-face {
   font-family: 'Mulish';

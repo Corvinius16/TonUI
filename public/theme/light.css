@@ -1,0 +1,36 @@
+html{
+    --main-bg-color: #F6F9FB;;
+    --main-bg-color-overflow:#F6F9FB;
+    --color-scrollFront:#0088CC;
+    --color-scrollBack:#cdcdce;;
+    --color-header: white;
+    --color-footer:white;
+    --color-text-hover: #313755;
+    --color-text:#68719B;
+    --color-text-error:#ff4d4d;;
+    --color-text-pool:#68719B;
+    --color-text-button:white;
+    --icon-filter: brightness(0.5);
+    --color-text-poolInfo:rgb(69 69 69 / 50%);
+    --color-line-darkBorder: 1px solid #F1F5FF;
+    --color-line:#D6DEF1;
+    --color-line-footer:#F1F5FF;
+    --color-slider-back:#c9ccda;
+    --color-line-footer2: 1px solid #D6DEF1;
+    --color-border-input:#6E779E;
+    --color-innerBackground:#F6F9FB;
+    --color-text-unstake: #68719B;
+    --color-buttons:#0088CC;
+    --color-modalBack:#ffffff;
+    --color-icons-back:#E8EAF2;;
+    --color-modalBack2:white;
+    --box-shadow: 0px 4.77019px 76.323px rgba(0, 0, 0, 0.08);
+    --color-selectCoinBack:white;
+    --color-header-mobile:white;
+}
+
+@-moz-document url-prefix() { 
+    html {
+        --main-bg-color:#F6F9FB;
+    }
+}

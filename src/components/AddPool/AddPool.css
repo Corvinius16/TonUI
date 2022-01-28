@@ -1,0 +1,81 @@
+.addPoolWindow{
+    margin: auto;
+    width:384px;
+}
+.addPoolContainer{
+    padding:20px;
+}
+
+.iconPlus{
+    margin-top: 14px;
+    margin-bottom: 14px;
+    background: var(--color-innerBackground);
+    border-radius: 50%;
+    display: flex;
+    width:30px;
+    height: 30px;
+    transition: all 0.5s;
+    cursor:pointer;
+}
+.iconPlus img{
+    filter:var(--icon-filter);
+    transition: all var(--animationTime);
+}
+.poolInfo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 14px;
+    margin-bottom: 20px;
+}
+.poolInfo div{
+    display: flex;
+    margin-bottom: 10px;
+}
+.poolInfo p{
+    font-size: 12px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.poolInfo div:last-child{
+    margin-bottom: 0px;
+}
+.createPoolButton{
+    height: 43px;
+    width:100%;
+    display: flex;
+    border-radius: 10px;
+    background: var(--color-buttons);
+    cursor: pointer;
+    margin-top: 14px;
+    transition: all var(--animationTime);
+}
+.createPoolButton p{
+    margin: auto;
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--color-text-button);
+    transition: all var(--animationTime);
+}
+.PoolError{
+    border: 1px solid var(--color-text-error);
+    transition: all var(--animationTime);
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-top: 22px;
+    display:flex;
+    padding:10px;
+}
+.PoolError p{
+    text-align:center;
+    margin:auto;
+    color: var(--color-text-error);
+    transition: all var(--animationTime);
+}
+
+@media only screen and (max-width: 450px){
+    .addPoolWindow{
+        margin-left: 10px;
+        margin-right: 10px;
+        width:100%;
+    }
+}

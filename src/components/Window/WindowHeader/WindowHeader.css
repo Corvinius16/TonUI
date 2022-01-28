@@ -1,9 +1,10 @@
 .WindowHeader{
-    height: 63px;
-    border-bottom: 1px solid #1D2238;
+    min-height: 63px;
+    border-bottom: var(--color-line-darkBorder);
+    transition: all var(--animationTime);
     display: flex;
 }
-.swapHeader h2{
+.WindowHeader h2{
     font-size: 16px;
     font-weight: bold;
 }
@@ -22,6 +23,8 @@
 }
 .WindowHeaderButtons img{
     height: 15px;
+    filter:var(--icon-filter);
+    transition: all var(--animationTime);
 }
 .WindowHeaderButtons a{
     margin-right: 18px;

@@ -1,14 +1,13 @@
-import { GET_PRICE_TON } from '../constants/actionConstants';
-interface IGetPriceTONAction{
-    type: typeof GET_PRICE_TON,
-    price:number
+import { GET_PRICE_TON, UPDATE_PLATFORM_INFO } from '../constants/actionConstants';
+import {ICoin, IPool} from '../types/PlatformType'
+
+
+interface IPlatformUpdateAction{
+    type: typeof UPDATE_PLATFORM_INFO,
+    priceTON: number,
+    coins: ICoin[],
+    pools: IPool[]
 }
-export type GetPriceTONActionType = IGetPriceTONAction;
 
-export const GetPriceTON = () : GetPriceTONActionType =>({
-    type: GET_PRICE_TON,
-    price: 0
-});
-
-
+export type UpdatePlatformActionType = IPlatformUpdateAction;
 

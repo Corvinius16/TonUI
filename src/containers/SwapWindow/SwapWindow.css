@@ -1,0 +1,16 @@
+.swap{
+    width:384px;
+    margin-top: 53px;
+    margin-bottom: 77px;
+}
+
+
+@media only screen and (max-width:450px) {
+    .swap{
+        width: auto;
+    margin-top: 53px;
+    margin-bottom: 77px;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+}

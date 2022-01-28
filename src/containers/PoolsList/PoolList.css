@@ -1,0 +1,59 @@
+.PoolHeaderWindow{
+    width:100%;
+    margin-top: 53px;
+    margin-bottom: 40px;
+    height: 159px;
+    display: flex;
+}
+.PoolContainer{
+    width:860px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.BackWindowImg{
+    position: absolute;
+    right:0px;
+    bottom:0px;
+    z-index: 1;
+}
+.FrontWindowImg{
+    position: absolute;
+    right: -26px;
+    bottom: -5px;
+    z-index: 2;
+}
+.TextHeader{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 44px;
+}
+.TextHeader h1{
+    font-weight: 600;
+    color: var(--color-text-hover);
+    font-size: 31px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+.TextHeader h2{
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media only screen and (max-width: 930px){
+    .PoolContainer{
+        width:660px;
+    }
+}
+@media only screen and (max-width: 700px){
+    .PoolContainer{
+        width:auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .WindowImg{
+        display: none;
+    }
+}
+

@@ -1,0 +1,197 @@
+.filterTable{
+    display: flex;
+    margin-bottom: 24px;
+}
+.typeView{
+    display: flex;
+    width:100%;
+}
+.typeGrid{
+    margin-right: 15px;
+}
+.typeGrid::before{
+    content: "\ea6b";
+    font-family: 'Coolicons';
+    font-size: 23px;
+    transition: all var(--animationTime);
+    color:  var(--color-text-pool);
+    cursor: pointer;
+}
+.typeTable::before{
+    content: "\ea86";
+    font-family: 'Coolicons';
+    font-size: 14px;
+    color: var(--color-text-pool);
+    transition: all var(--animationTime);
+    font-size: 23px;
+    cursor: pointer;
+}
+.typeTable.typeSelect::before{
+    color: var(--color-buttons);
+    transition: all var(--animationTime);
+}
+.typeGrid.typeSelect::before{
+    color: var(--color-buttons);
+    transition: all var(--animationTime);
+}
+.filtersContainer{
+    margin-left: auto;
+    display: flex;
+}
+.stakedFilter{
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 31px;
+    margin-left: auto;
+
+}
+.stakedFilter p{
+    font-weight: 900;
+    font-size: 12px;
+    transition: all var(--animationTime);
+    color:  var(--color-text-pool);
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 36px;
+    height: 20px;
+    margin-right: 13px;
+  }
+.filterFind{
+    margin-left: 14px;
+    width:174px;
+}
+
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    display: none;
+  }
+  
+
+.pools{
+    margin-bottom: 77px;
+}
+.PoolContainerTable{
+    display:flex;
+    flex-direction: column;
+}
+.PoolContainerTable table{
+    border-collapse: collapse;
+}
+.PoolContainerTable tr{
+    border-bottom: var(--color-line-darkBorder);
+    transition: all var(--animationTime);
+}
+.PoolContainerTable tr:first-child .poolItem {
+    border-top: none;
+}
+.PoolContainerTable tr:last-child .poolItem {
+    border-bottom: none;
+}
+.PoolContainerTable td:first-child{
+    padding: 0;
+    width:11%;
+}
+.PoolContainerTable td:last-child{
+    padding: 0;
+    width:9%;
+}
+.PoolContainerTable td{
+    padding: 0;
+    width:20%;
+}
+
+.PoolContainerTable tr:last-child{
+    border-bottom: none;
+}
+.PoolContainerTable tr:first-child{
+    border-top: none;
+}
+.createPool{
+    width:161px !important;
+    height: 100% !important;
+    margin-left: 14px !important;
+    margin-right: 0 !important;
+}
+.filterType{
+    width:181px;
+}
+.PoolContainerGrid{
+    display: grid;
+    grid-template-columns: repeat(3,265px);
+    gap:32px;
+    justify-content: space-between;
+    margin-bottom: 77px;
+}
+@media only screen and (max-width: 930px){
+    .createPool{
+        width:110px !important;
+    }
+    .filterFind{
+        width: 130px;
+    }
+    .filterType{
+        width:130px;
+    }
+    .PoolContainerGrid{
+        grid-template-columns: repeat(3,200px);
+    }
+}
+@media only screen and (max-width: 700px){
+    .PoolContainerGrid{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .PoolContainerTable{
+        width:auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .WindowImg{
+        display: none;
+    }
+    .TextHeader{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .pools{
+        width: 100%;;
+        overflow-x: scroll;
+    }
+    .filterTable{
+        flex-direction: column;
+    }
+    .stakedFilter{
+        margin-right: 0;
+    }
+    .filtersContainer{
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .filterType{
+        width:100%;
+        margin-top: 14px;
+    }
+    .filterFind{
+        width:100%;
+        height: 32px;
+        margin-left:0;
+        margin-top: 14px;
+    }
+    .createPool{
+        margin-top: 14px !important;
+        width:100% !important;
+        margin-left: 0 !important;
+        height: 32px !important;
+
+    }
+    .PoolContainerTable{
+        width:860px;
+    }
+}
+

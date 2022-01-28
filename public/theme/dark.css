@@ -1,0 +1,36 @@
+html{
+    --main-bg-color: linear-gradient(180deg, #303757 0%, #191D32 100%);
+    --main-bg-color-overflow:#191D32;
+    --color-scrollFront:#0088CC;
+    --color-scrollBack:#191D32;
+    --color-header: transparent;
+    --color-footer:transparent;
+    --color-text-hover: white;
+    --color-text:#A5ADD0;
+    --color-text-error:#ff4d4d;;
+    --color-text-pool:#CDD3EE;
+    --color-text-button:#F4F6FF;
+    --color-text-poolInfo:rgba(205, 211, 238, 0.5);
+    --icon-filter: invert(0);
+    --color-line-darkBorder: 1px solid #1D2238;
+    --color-line:#475078;
+    --color-line-footer:#06070D;
+    --color-slider-back:#475078;
+    --color-line-footer2: 1px solid #323958;
+    --color-border-input:#6E779E;
+    --color-innerBackground:#303757;
+    --color-buttons:#0088CC;
+    --color-modalBack:#3A446D;
+    --color-icons-back:#272D48;
+    --color-text-unstake: white;
+    --color-modalBack2:rgba(27, 30, 46, 0.95);
+    --box-shadow:0px 4px 8px rgb(0 0 0 / 25%);
+    --color-selectCoinBack:rgba(27, 30, 46, 0.95);
+    --color-header-mobile:#29304C;
+}
+
+@-moz-document url-prefix() { 
+    html {
+        --main-bg-color:#191D32;
+    }
+}

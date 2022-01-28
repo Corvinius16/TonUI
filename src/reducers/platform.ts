@@ -1,18 +1,26 @@
-import { GET_PRICE_TON } from '../constants/actionConstants';
-import  IPlatrform  from '../types/priceTONType';
-import  {GetPriceTONActionType} from '../actions/platformActions'
+import { UPDATE_PLATFORM_INFO } from '../constants/actionConstants';
+import  IPlatrform  from '../types/PlatformType';
+import  {UpdatePlatformActionType} from '../actions/platformActions'
 
 type platrformState = IPlatrform;
 
 const initialPlatformState: IPlatrform = {
-    price: 0,
+    priceTON: 0,
+    coins: [],
+    isInited: false,
+    slippageTolerance: 0.5,
+    pools: []
 }
-const platformTONPrice = (state = initialPlatformState, action: GetPriceTONActionType): platrformState=> {
+const UpdatePlatform = (state = initialPlatformState, action: UpdatePlatformActionType): platrformState=> {
   switch (action.type) {
-    case GET_PRICE_TON :
-        const {price} = action;
+    case UPDATE_PLATFORM_INFO :
+        const {priceTON, coins} = action;
         state = {
-            price
+          priceTON,
+          coins,
+          isInited: true,
+          slippageTolerance: state.slippageTolerance,
+          pools: action.pools
         }
         return state;
     default:
@@ -20,5 +28,5 @@ const platformTONPrice = (state = initialPlatformState, action: GetPriceTONActio
   }
 }
   
-export default platformTONPrice;
+export default UpdatePlatform;
 

@@ -1,0 +1,41 @@
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--color-slider-back);
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 4px;
+    bottom: 3px;
+    transition: .4s;
+    background: var(--color-buttons);
+  }
+  
+
+  
+ 
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(14px);
+    -ms-transform: translateX(14px);
+    transform: translateX(14px);
+  }
+  
+  .slider.round {
+    border-radius: 40px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }

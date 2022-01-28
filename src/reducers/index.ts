@@ -1,7 +1,8 @@
 import { combineReducers } from 'redux';
-import wallet from './wallet';
+import account from './account';
 import platform from './platform';
-const rootReducer = combineReducers({wallet,platform});
+import theme from './theme'
+const rootReducer = combineReducers({account,platform,theme});
 
 export default rootReducer;
 export type RootState = ReturnType<typeof rootReducer>;
