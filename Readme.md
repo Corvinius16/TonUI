@@ -14,19 +14,19 @@ The project was created by Alexey Pavlov, Alina Krol, Alexey Sarafanov.
 ### Desktop
 
 #### Dark
-![Alt text](/Readme/Dark/Home.png "Home")
-![Alt text](/Readme/Dark/Swap.png "Swap")
-![Alt text](/Readme/Dark/selectToken.png "SelectToken")
-![Alt text](/Readme/Dark/Pools.png "Pools")
-![Alt text](/Readme/Dark/Pools2.png "Pools grid")
-![Alt text](/Readme/Dark/createPool.png "createPool")
-![Alt text](/Readme/Dark/addLiquidity.png "addLiquidity")
+![Alt text](/Readme/Desktop/Dark/Home.png "Home")
+![Alt text](/Readme/Desktop/Dark/Swap.png "Swap")
+![Alt text](/Readme/Desktop/Dark/selectToken.png "SelectToken")
+![Alt text](/Readme/Desktop/Dark/Pools.png "Pools")
+![Alt text](/Readme/Desktop/Dark/Pools2.png "Pools grid")
+![Alt text](/Readme/Desktop/Dark/createPool.png "createPool")
+![Alt text](/Readme/Desktop/Dark/addLiquidity.png "addLiquidity")
 
 #### Light
-![Alt text](/Readme/Light/Home.png "Home")
-![Alt text](/Readme/Light/Swap.png "Swap")
-![Alt text](/Readme/Light/selectToken.png "SelectToken")
-![Alt text](/Readme/Light/Pools.png "Pools")
-![Alt text](/Readme/Light/Pools2.png "Pools grid")
-![Alt text](/Readme/Light/createPool.png "createPool")
-![Alt text](/Readme/Light/addLiquidity.png "addLiquidity")
+![Alt text](/Readme/Desktop/Light/Home.png "Home")
+![Alt text](/Readme/Desktop/Light/Swap.png "Swap")
+![Alt text](/Readme/Desktop/Light/selectToken.png "SelectToken")
+![Alt text](/Readme/Desktop/Light/Pools.png "Pools")
+![Alt text](/Readme/Desktop/Light/Pools2.png "Pools grid")
+![Alt text](/Readme/Desktop/Light/createPool.png "createPool")
+![Alt text](/Readme/Desktop/Light/addLiquidity.png "addLiquidity")
