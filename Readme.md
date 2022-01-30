@@ -33,3 +33,21 @@ The project was created by Alexey Pavlov, Alina Krol, Alexey Sarafanov.
 | ![Alt text](/Readme/Mobile/Dark/createPool.jpg "createPool") | ![Alt text](/Readme/Mobile/Light/createPool.jpg "createPool") |
 | ![Alt text](/Readme/Mobile/Dark/addLiquidity.jpg "addLiquidity") | ![Alt text](/Readme/Mobile/Light/addLiquidity.jpg "addLiquidity") | 
 
+
+## Start Local
+
+
+```shell
+npm install
+npm start
+```
+
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+## Build
+
+
+```shell
+npm install
+npm run build
+```
