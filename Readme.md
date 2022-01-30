@@ -26,10 +26,10 @@ The project was created by Alexey Pavlov, Alina Krol, Alexey Sarafanov.
 ### Mobile
 | Dark | Light |
 | :---: | :---: |
-| ![Alt text](/Readme/Mobile/Dark/Home.png "Home") | ![Alt text](/Readme/Mobile/Light/Home.png "Home") |
-| ![Alt text](/Readme/Mobile/Dark/Swap.png "Swap") | ![Alt text](/Readme/Mobile/Light/Swap.png "Swap") | 
-| ![Alt text](/Readme/Mobile/Dark/selectToken.png "SelectToken") |![Alt text](/Readme/Mobile/Light/selectToken.png "SelectToken") |
-| ![Alt text](/Readme/Mobile/Dark/Pools.png "Pools") | ![Alt text](/Readme/Mobile/Light/Pools.png "Pools") |
-| ![Alt text](/Readme/Mobile/Dark/createPool.png "createPool") | ![Alt text](/Readme/Mobile/Light/createPool.png "createPool") |
-| ![Alt text](/Readme/Mobile/Dark/addLiquidity.png "addLiquidity") | ![Alt text](/Readme/Mobile/Light/addLiquidity.png "addLiquidity") | 
+| ![Alt text](/Readme/Mobile/Dark/Home.jpg "Home") | ![Alt text](/Readme/Mobile/Light/Home.jpg "Home") |
+| ![Alt text](/Readme/Mobile/Dark/Swap.jpg "Swap") | ![Alt text](/Readme/Mobile/Light/Swap.jpg "Swap") | 
+| ![Alt text](/Readme/Mobile/Dark/selectToken.jpg "SelectToken") |![Alt text](/Readme/Mobile/Light/selectToken.jpg "SelectToken") |
+| ![Alt text](/Readme/Mobile/Dark/Pools.jpg "Pools") | ![Alt text](/Readme/Mobile/Light/Pools.jpg "Pools") |
+| ![Alt text](/Readme/Mobile/Dark/createPool.jpg "createPool") | ![Alt text](/Readme/Mobile/Light/createPool.jpg "createPool") |
+| ![Alt text](/Readme/Mobile/Dark/addLiquidity.jpg "addLiquidity") | ![Alt text](/Readme/Mobile/Light/addLiquidity.jpg "addLiquidity") | 
 
